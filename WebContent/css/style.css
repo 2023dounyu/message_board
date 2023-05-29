@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
 body{
-    color: #333333;
-    font-family:"Hiragino Kaku Gothic Pro", Meiryo, "MS PGothic", Helvetica, Arial, sans-serif;
+    background-color: aliceblue;
+    font-family:"Century", serif, "MS PGothic", Helvetica, Arial, sans-serif;
 }
 
 #header{
     width: 100%;
     height: 70px;
-    background-color: #333333;
+    background-color: #ffe4c4;
 }
 
 #content{
@@ -22,12 +22,13 @@ h1{
     padding-top: 17px;
     padding-left: 3%;
     font-size: 24px;
-    color: #eeeeee;
+    color: #2f4f4f;
 }
 
 h2{
     font-size: 36px;
     margin-bottom: 15px;
+    color: #2f4f4f;
 }
 
 li{
@@ -42,7 +43,7 @@ p{
 
 a{
     text-decoration: none;
-    color:#24738e;
+    color:#65ca00;
 }
 
 table, tr, th,td{
@@ -71,4 +72,14 @@ button{
 
 #footer{
     text-align: center;
+}
+
+#flush_success{
+    width: 100%;
+    padding-top: 28px;
+    padding-left: 2%;
+    padding-bottom: 28px;
+    margin-bottom: 15px;
+    color: #fffffd;
+    background-color: #6776a9;
 }
